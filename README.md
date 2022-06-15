@@ -20,17 +20,28 @@
 
 ## pom.xml - Define dependencies to use in framework
 
-##Test Execution##
+## Test Execution##
 1. Go to src/test/java/org.TodayTix/Tests/Test1.java 
    a. Click on the play icon displayed on the left side of the pane
    b. Right click anywhere in the right pane and click run
 
-##Requires Java version 8##
+## Requires Java version 8##
 <details><summary>Click me to find a link for download</summary>
 <p>
 https://www.java.com/download/ie_manual.jsp
 </p>
 </details>
+
+
+# Get to know the framework
+This framework is a Java - Maven based linear framework which uses Junit dependencies.
+The framework uses inheritance to instantiate the Webdriver which can be used in different 
+class files and it's instance does not need to be created in each class file separately
+
+Junit dependencies are in pom.xml time and is used in BaseTeat.java class file
+
+The framework uses Page Object Model which makes it more readable and easy to refactor with any changes in the functionality on the page in future
+
 
 
 

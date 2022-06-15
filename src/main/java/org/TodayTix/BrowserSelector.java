@@ -2,7 +2,6 @@ package org.TodayTix;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class BrowserSelector extends BasePage{

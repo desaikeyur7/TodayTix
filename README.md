@@ -20,7 +20,7 @@
 
 ## pom.xml - Define dependencies to use in framework
 
-##Test Execution
+##Test Execution##
 1. Go to src/test/java/org.TodayTix/Tests/Test1.java 
    a. Click on the play icon displayed on the left side of the pane
    b. Right click anywhere in the right pane and click run

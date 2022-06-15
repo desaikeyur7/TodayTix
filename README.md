@@ -2,23 +2,23 @@
 
 ## Project Structure
 ### src/main/java/org.TodayTix
-###   ##PageObjects## - Create separate .java files for each page
-###   ##BasePage## - Instantiate WebDriver
-###   ##BrowserSelector## - Select the required browser to run tests
-###   ##LoadProp## - Passing data used in framework 
-###   ##Utils## - Reusable methods
+###   PageObjects - Create separate .java files for each page
+###   BasePage - Instantiate WebDriver
+###   BrowserSelector - Select the required browser to run tests
+###   LoadProp - Passing data used in framework 
+###   Utils - Reusable methods
 
 ### src/test/java/org.TodayTix
-###   ##Tests## - Write automation tests
-###   ##BaseTest## - Define Junit Annotations 
+###   Tests - Write automation tests
+###   BaseTest - Define Junit Annotations 
 
 ### src/test/Resources/ BrowserDrivers
-###  ##chromedriver.exe## - To run tests in chrome browser
+###  chromedriver.exe - To run tests in chrome browser
 
 ### src/test/Resources/ TestData
-###  ##TestDataConfig.properties## - Pass data used in framework
+###  TestDataConfig.properties - Pass data used in framework
 
-### ##pom.xml## - Define dependencies to use in framework
+### pom.xml - Define dependencies to use in framework
 
 ##Requires Java version 8##
 <details><summary>Click me to find a link for download</summary>
